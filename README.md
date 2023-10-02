@@ -1,6 +1,8 @@
 # Problema de domínio?
 
-Num mundo de piratas e marinheiros, deseja-se desenvolver um sistema para gerir tripulações de navios piratas e marinheiros. 
+Num mundo de piratas e marinheiros, deseja-se desenvolver um sistema para gerir tripulações de piratas e marinheiros.
+<br>
+<br>
 Cada `Tripulação` pirata é liderada por um `Capitão`, o líder supremo e responsável pelas decisões finais.
 Além do `Capitão`, uma `Tripulação` pode ser composta por vários `Membros`. 
 Cada `Tripulação` pode ter vários `Barcos` ou `Navios`, assim como pode ter somente uma `Bandeira`.
@@ -77,14 +79,14 @@ Enquanto isso, a Marinha é responsável por manter a ordem e capturar piratas q
 **Relações:**
 
 - Uma `Tripulacao` pode ter vários `Piratas`.
-
 - Uma `Tripulacao` pode saquear vários `Tesouros`.
-
 - Uma `Tripulacao` pode visitar várias `Ilhas`.
-
 - Uma `Ilha` pode conter vários `Tesouros`.
-
 - A `Marinha` pode monitorar várias `Tripulacoes`.
+- Um `Ser` pode ser de uma `Raça`.
+- Um `Ser` pode ter 0 ou mais `Sonhos`.
+- Um `Ser` pode ter 0 ou mais `Apelidos`.
+- Um `Ser` pode ter 0 ou mais `Habilidades`.
 
 **Cenários de Uso:**
 
