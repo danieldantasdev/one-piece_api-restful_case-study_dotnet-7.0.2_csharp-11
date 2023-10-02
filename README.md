@@ -99,3 +99,8 @@ Enquanto isso, a Marinha é responsável por manter a ordem e capturar piratas q
 - As Tripulações competem para acumular o maior valor em Tesouros e se tornar a Tripulação mais famosa dos mares.
 
 Este é um exemplo simplificado de um sistema baseado no mundo de "One Piece". Claro, você pode expandir e refinar essas classes de domínio e cenários de uso de acordo com os requisitos específicos do seu projeto. Além disso, você pode criar diagramas de classe e objetos com base nessas classes para ajudar na implementação do sistema.
+
+
+## Diagrama de Classe
+
+![Diagrama de Classe](./OnePiece.Documentation/class_diagram.jpg)
