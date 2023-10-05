@@ -54,39 +54,22 @@ Enquanto isso, a Marinha é responsável por manter a ordem e capturar piratas q
 
 6. Quando uma Tripulação de Piratas visita uma Ilha, eles podem encontrar Tesouros e enfrentar Marinheiros.
 
-**Classes de Domínio:**
+## Relações:
 
-- `Tripulacao` (Tripulação de Piratas)
-    - Propriedades: Nome, Jolly Roger
-    - Métodos: Adicionar Pirata, Saquear Tesouro, Visitar Ilha
-
-- `Capitao` (Capitão da Tripulação)
-    - Propriedades: Nome, Habilidade Especial
-    - Métodos: Nomear Pirata, Definir Cargo
-
-- `Pirata` (Membros da Tripulação)
-    - Propriedades: Nome, Habilidade Especial, Cargo
-
-- `Tesouro` (Tesouros coletados)
-    - Propriedades: Nome, Valor, Descrição
-
-- `Ilha` (Locais visitados)
-    - Propriedades: Nome, Descrição, Tesouros
-
-- `Marinha` (Autoridade que busca capturar Piratas)
-    - Propriedades: Nível de Autoridade, Nome
-
-**Relações:**
-
-- Uma `Tripulacao` pode ter vários `Piratas`.
-- Uma `Tripulacao` pode saquear vários `Tesouros`.
-- Uma `Tripulacao` pode visitar várias `Ilhas`.
-- Uma `Ilha` pode conter vários `Tesouros`.
-- A `Marinha` pode monitorar várias `Tripulacoes`.
-- Um `Ser` pode ser de uma `Raça`.
-- Um `Ser` pode ter 0 ou mais `Sonhos`.
-- Um `Ser` pode ter 0 ou mais `Apelidos`.
-- Um `Ser` pode ter 0 ou mais `Habilidades`.
+- Um `Ser` pode ser de uma `Raça`;
+- Um `Ser` pode ter 0 ou mais `Sonhos`;
+- Um `Ser` pode ter 0 ou mais `Apelidos`;
+- Um `Ser` pode ter 0 ou mais `Habilidades`;
+- Um `Marinheiro` participar de 0 ou mais `Bases`;
+- A `Marinha` pode monitorar várias `Tripulacoes`;
+- Uma `Base` pode explorar 0 ou mais `Ilhas`;
+- Uma `Ilha` pode ter 0 ou mais `Tesouros`;
+- Uma `Tripulacao` pode explorar várias `Ilhas`;
+- Uma `Tripulacao` pode saquear vários `Tesouros`;
+- Uma `Tripulacao` pode ter 1 ou mais `Barcos`;
+- Uma `Tripulacao` só pode ter 1 `Bandeira`;
+- Uma `Tripulacao` pode ter 1 ou mais `Membros`;
+- Um `Pirata` pode ter 0 ou mais `Recompensas`;
 
 **Cenários de Uso:**
 
@@ -104,3 +87,7 @@ Este é um exemplo simplificado de um sistema baseado no mundo de "One Piece". C
 ## Diagrama de Classe
 
 ![Diagrama de Classe](./OnePiece.Documentation/class_diagram.jpg)
+
+## Diagrama de Objetos
+
+![Diagrama de Objetos](./OnePiece.Documentation/object_diagram.jpg)
