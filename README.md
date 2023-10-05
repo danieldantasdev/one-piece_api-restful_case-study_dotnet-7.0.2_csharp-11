@@ -86,8 +86,8 @@ Este é um exemplo simplificado de um sistema baseado no mundo de "One Piece". C
 
 ## Diagrama de Classe
 
-![Diagrama de Classe](./OnePiece.Documentation/class_diagram.jpg)
+![Diagrama de Classe](documentation/class_diagram.jpg)
 
 ## Diagrama de Objetos
 
-![Diagrama de Objetos](./OnePiece.Documentation/object_diagram.jpg)
+![Diagrama de Objetos](documentation/object_diagram.jpg)
